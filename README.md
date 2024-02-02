@@ -1,29 +1,10 @@
-# Test assignment
-
-We are looking for Automation Engineers that have the mindset "only the sky is the limit" and "automation doesn't stop at testing, it's just a beginning!" ;)
-
-The purpose of this test assignment is to assess the applicant's automation skills, allowing him/her to show the best they can do and how fast they can learn.
-It is an open assignment. There is no the right answer and there is no end goal other than proving yourself. Surprise us!
-
-Make sure that you give detailed comments or descriptions of your tests.
-When the assignment is complete, please push your solution to Github(Gitlab) and send us the link 
-
-If you have any questions, please contact us back.
-
-
-Good luck.
-
-PS. We don't expect you to spend weeks (and sleepless nights) on doing it. Lets see how far you can get in 6-10 hours. We want to see how you approach and solve problems.
-
-PSPS. Please use mobile native tools.
-
-
-## Project set-up
-
-### Gemfile
-
-This file specifies which Ruby dependencies (gems) are needed for our app.
-
-### fastlane/Fastfile
-
-This is where tha magic happens.
+# How to Run Tests
+There are several ways to run the written test cases;
+1. Terminal can be opened in the following folder: Tikkie-Assignment which is
+the root folder of the project.
+    The following command should be written into the terminal "fastlane test_ui". After that, all the test cases will start to run.
+   - After running the test with fastlane command, the test report can be found inside of the fastlane/test_output folder.
+2. To execute the tests that are part of the test plan which is Regression, the following command should be written into the terminal under to root folder of Tikkie-Assignment, "fastlane test_ui_with_testplan testplan:Regression". To execute tests with any given test plan, I created a new function for passing test plans inside of the fastlane/Fastfile. 
+2. The project should be opened in XCode. Then, under the ReferenceiOSUITests package, MainScreenUITests can be found to execute test cases.
+    - Each test case can be run by clicking the run button.
+  
