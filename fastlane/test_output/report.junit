@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ReferenceiOSUITests.xctest' tests='2' failures='0'>
+  <testsuite name='ReferenceiOSUITests.MainScreenUITests' tests='2' failures='0'>
+    <testcase classname='ReferenceiOSUITests.MainScreenUITests' name='test_givenAppIsLaunched_whenButtonIsClicked_thenCheckWhetherTextIsChangedToTheCurrencyValue' time='7.807'/>
+    <testcase classname='ReferenceiOSUITests.MainScreenUITests' name='test_givenDeviceOrientationIsLandscape_whenButtonIsClicked_thenExpectedViewsAreDisplayed' time='9.933'/>
+  </testsuite>
+</testsuites>
